@@ -1,0 +1,82 @@
+.t-BNHA {
+    width: 600px;
+    height: auto;
+    background: linear-gradient(45deg, #868a42d4, #0c0c08ad);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+    text-align: left;
+    display: flex;
+    color: var(--text);
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.t-BNHA h1 {
+    font-family: "Pastilli";
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: left;
+    line-height: 13px;
+    color: var(--text);
+}
+
+.t-BNHA .lin {
+    height: 1px;
+    width: 250px;
+    background: var(--text);
+    margin: 0 0px 0 20px;
+}
+
+.day {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 10px 0 0 0;
+}
+
+.textpost {
+    padding: 20px;
+    text-align: justify;
+    font: 13px 'Arial';
+    line-height: 14px;
+    color: var(--text);
+    margin: -10px 0;
+}
+
+.E-BNHA {
+    margin: 10px;
+    font: 11px 'Arial';
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text);
+}
+
+.E-BNHA separador {
+    height: 1px;
+    width: 150px;
+    background: var(--trace2);
+    margin: 0 10px;
+}
+
+.E-BNHA i {
+    background: linear-gradient(45deg, #868a42d4, #0c0c08ad);
+    margin: 0 0px 0 10px;
+    color: var(--text);
+    padding: 3px;
+    letter-spacing: 1px;
+}
+
+.day p {
+    width: 120px;
+    padding: 5px;
+    border: 1px solid var(--trace2);
+    border-radius: 5px;
+    font-size: 11px;
+    margin: 0 0px 0 10px;
+    color: var(--text);
+}
