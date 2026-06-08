@@ -1,0 +1,91 @@
+.bus-cuerpo br {display: none;}
+.bus-cuerpo {
+  width: 600px;
+  height: auto; 
+  background: var(--back2); 
+  margin: 0 auto;
+  border: 1px solid var(--acento2);
+}
+
+.bus1 {
+  margin: 15px; 
+  width: 565px;
+  background: var(--back1);
+  height: 290px;
+  border: 1px solid var(--acento2);
+  display: flex;
+  justify-content: space-between;
+}
+
+.busima {
+  width: 250px;
+  height: 270px;
+  border-right: 1px solid var(--acento2);
+  padding-right: 10px;
+  padding: 10px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: top-center;
+}
+
+.busima img { 
+  width: 250px;
+  height: 270px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.bus-tit {
+  width: 235px;
+  padding: 30px;
+  display:flex;
+  align-items: center; 
+  flex-flow: column; 
+  justify-content: center; 
+}
+
+.bus-tit h1 {
+  line-height: 15px; 
+  text-align: center;
+  font: 20px 'Pastilli';
+  text-transform: uppercase;
+  color: var(--text);
+}
+
+
+.bus-tit br { display: block;}
+.bus-tit p br{ display: block;}
+.bus-tit p {
+    text-align: justify;
+  font: 10px 'Roboto';
+  letter-spacing: 1px;
+    overflow: auto;
+    color: var(--text);
+}
+
+.bus-cont {
+  width: 565px; 
+  margin: -15px 0 15px 15px;
+  height: 80px;
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  font: 15px 'Pastilli';
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  line-height: 12px;
+  color: var(--text);
+  border-bottom: 1px solid var(--acento2);
+  border-left: 1px solid var(--acento2);
+  border-right: 1px solid var(--acento2);
+}
+
+.bus-cont1 br {display: block;}
+.bus-cont1 {
+  color: var(--text);
+  font: 11.5px 'Roboto';
+  letter-spacing: 1px;
+  margin: 20px;
+  text-align: justify;
+  line-height: 12px;
+}
